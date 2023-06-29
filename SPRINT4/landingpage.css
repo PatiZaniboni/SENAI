@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+  }
+
+  .planos-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .plano {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .plano h2 {
+    color: #ffffff;
+  }
+
+  .plano p {
+    color: #ffffff;
+  }
+
+  .plano .preco {
+    font-size: 24px;
+    color: #BE70E0;
+    margin-top: 10px;
+  }
+
+  .plano .btn-assinar {
+    background-color: #793B94;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .btn-assinar:hover{
+    box-shadow: 1px 1px 1px 1px #ffffff;
+    background-color: #5DDEA2;
+    transform: scaleX(1,2);
+    color: #BE70E0;
+    font-weight: bold;
+  }
