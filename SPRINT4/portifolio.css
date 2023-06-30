@@ -1,0 +1,92 @@
+body{
+    color: white;
+    margin: 0;
+    background-color: rgb(224, 170, 58);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: auto;
+    height: 150px;
+}
+section{
+    padding: 2%;
+}
+.capa{
+    color: white;
+    height: 500px;
+    background-color: rgb(190,112,224);
+    text-align: center;
+}
+
+.Caven{
+        text-align: start;
+}        
+    h1{
+            font-size: 100px;
+            text-align: center;
+            text-transform: uppercase;
+    }
+    .perfil{
+        width: 400px;
+    }
+    .grupo6{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+    }
+.portfolio{
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    color: black;
+}
+.port-list{
+    flex: 1;
+    text-align: center;
+}
+.Patrícia{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.title-aluno{
+    flex: 1;
+}
+.direita{
+    text-align: right;
+}
+
+.grupos-title{
+    height: 80vh;
+    background-color: rgb(93, 222, 162);
+    
+}
+.grupos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.logo-grupo{
+   height: 130px;
+   flex: 2;
+}
+
+.logo-small{
+    height: auto;
+    width: 300px;
+}
+.grupo{
+    flex: 0 0 20%; 
+    margin: 30px;
+}
